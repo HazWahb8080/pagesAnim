@@ -19,7 +19,7 @@ export default function ModelInfo({ title }: Props) {
         opacity: 0,
       }}
     >
-      <h1 data-scroll data-scroll-speed={-1} className="model-title">
+      <h1 data-scroll data-scroll-speed="-1" className="model-title">
         {title}
       </h1>
     </motion.div>
